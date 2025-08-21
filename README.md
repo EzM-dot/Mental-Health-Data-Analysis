@@ -1,6 +1,12 @@
 # Mental Health Data Analysis
 
-![Mental Health Analysis](treatment_analysis.png)
+## 📊 Key Visualizations
+
+### Treatment Rate by Course Group
+![Treatment by Course](https://github.com/EzM-dot/Mental-Health-Data-Analysis/raw/main/treatment_analysis_course.png)
+
+### Treatment Rate by Year of Study
+![Treatment by Year](https://github.com/EzM-dot/Mental-Health-Data-Analysis/raw/main/treatment_analysis_year.png)
 
 ## Overview
 This repository contains a comprehensive analysis of mental health data among university students. The project focuses on understanding the factors influencing students' decisions to seek mental health treatment, with a particular emphasis on academic and demographic variables.
@@ -10,10 +16,34 @@ The analysis examines the relationship between various factors (such as course o
 
 ## Key Findings
 
-### Significant Predictors of Seeking Treatment
-- **Course of Study**: BCS students showed the highest treatment-seeking rate (16.4%), followed by BIT (8.9%) and Engineering (7.8%)
-- **Year of Study**: Second-year students had the highest treatment rate (11.0%), while no fourth-year students reported seeking treatment
-- **Mental Health Support**: Strong correlation with seeking specialist treatment
+### Key Statistical Findings
+
+#### Significant Predictors of Depression (p < 0.05)
+- **Academic Engagement**: p = 0.0118, r = -0.0796
+- **CGPA**: p = 0.0859, r = 0.0543
+- **Anxiety**: p = 0.1267, r = 0.0483
+
+#### Specialist Treatment Analysis
+- **Course of Study**: 
+  - BCS: 16.4% sought treatment (n=177)
+  - BIT: 8.9% (n=101)
+  - Engineering: 7.8% (n=180)
+  - Other: 2.8% (n=542)
+
+- **Year of Study**:
+  - Year 2: 11.0% (n=274)
+  - Year 1: 6.8% (n=412)
+  - Year 3: 3.8% (n=240)
+  - Year 4: 0.0% (n=74)
+
+- **Gender Distribution**:
+  - Female: 6.7% (51/760)
+  - Male: 6.7% (16/240)
+
+### Data Quality
+- **Total Records**: 1,000 students
+- **Missing Values**: 0% (Complete dataset)
+- **Variables Analyzed**: 16
 
 ### Data Quality
 - 1,000 total records analyzed
